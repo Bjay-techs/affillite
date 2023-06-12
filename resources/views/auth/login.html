@@ -1,0 +1,53 @@
+
+<x-guest-layout>
+    <!-- Session Status -->
+    <x-auth-session-status class="mb-4" :status="session('status')" />
+
+    <div class="container-login100" style="margin-top:-180px; padding:0px">
+
+        <div class="wrap-login100 col-md-4">
+
+            <form method="POST" action="{{ route('login') }}" class="login100-form validate-form">
+                @csrf
+
+                <div style="margin-bottom: 1rem;">
+
+                    <x-input-label for="email" :value="__('Email')" />
+                    <x-text-input id="email" class="form-control" type="email" name="email" :value="old('email')"
+                        required autofocus autocomplete="username" />
+                    <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                </div>
+
+                <!-- Password -->
+                <div style="margin-bottom: 1rem;">
+                    <x-input-label for="password" :value="__('Password')" />
+
+                    <x-text-input id="password" class="form-control" type="password" name="password" required
+                        autocomplete="current-password" />
+
+                    <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                </div>
+
+                <!-- Remember Me -->
+                <div style="margin-bottom: 1rem;">
+                    <label for="remember_me" style="display: flex; align-items: center;">
+                        <input id="remember_me" type="checkbox" class="form-check-input" name="remember">
+                        <span style="margin-left: 1.5rem; font-size: 1.575rem;">{{ __('Remember me') }}</span>
+                    </label>
+                </div>
+
+                <div style="display: flex; align-items: center; justify-content: flex-end;">
+                    @if (Route::has('password.request'))
+                    <a style="text-decoration: underline; font-size: 1.475rem; color: #4aad5563; margin-right: 8rem;"
+                        href="{{ route('password.request') }}">
+                        {{ __('Forgot your password?') }}
+                    </a>
+                    @endif
+
+                    <x-primary-button style="font-size: 1rem;margin-right: 8rem; background:grey">
+                        {{ __('Log in') }}
+                    </x-primary-button>
+
+                </div>
+            </form>
+</x-guest-layout>
