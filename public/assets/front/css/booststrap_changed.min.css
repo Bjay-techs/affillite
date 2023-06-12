@@ -5831,12 +5831,12 @@ header{
 	margin-bottom: 20px;
 }
 
-.hero-text h2 {
+/* .hero-text h2 {
 	font-size: 80px;
 	line-height: 90px;
 	color: #ffffff;
 	margin-bottom: 16px;
-}
+} */
 .hero-text p {
 	font-size: 18px;
 	color: #ffffff;
@@ -6410,14 +6410,14 @@ color:white;
 background: rgba(056, 111, 121, 0.5);
 
 }
-           .rep1{
+           /* .rep1{
     
 display: none;
-}
-           .rep{
+} */
+           /* .rep{
     
 display: block;
-}
+} */
              #do{
                 margin-top:-200px;
             }
@@ -6541,13 +6541,13 @@ display: block;
                     }
 
 
-
+/* 
                     img {
                         width: 600px;
                         height: 390px;
                         margin-left: -130px;
                         margin-top: 50px;
-                    }
+                    } */
 
                     li {
                         margin: 15px 0px;
@@ -6589,8 +6589,6 @@ display: block;
 .aboutus-page-section {
 	padding-top: 30px;
 	padding-bottom: 70px;
-
- 
   margin: none;
 }
 .about-page-text {
@@ -7641,7 +7639,6 @@ font-weight: bold;
 		/*background-color: white;*/
 		height: 50px;
 		color: #19191a;
-		border: 1px solid #19191a;
 		border-radius: 2px;
 		line-height: 33px;
 		text-align: center;

@@ -1,4 +1,3 @@
-
 <?php
 
 use Illuminate\Support\Facades\Auth;
@@ -76,8 +75,8 @@ $name = $user->name??'';
  <!--           <nav class="mt-2">-->
  <!--               <ul class="nav nav-pills nav-sidebar flex-column nav-fixed" data-widget="treeview" role="menu"-->
  <!--                   data-accordion="false">-->
-                    <!-- Add icons to the links using the .nav-icon class
- <!--              with font-awesome or any other icon font library -->-->
+                    <!-- Add icons to the links using the .nav-icon class -->
+ <!--              with font-awesome or any other icon font library -->
  <!--                   <li class="nav-item has-treeview ">-->
  <!--                       <a href="" class="nav-link active">-->
  <!--                           <i class="nav-icon fas fa-tachometer-alt"></i>-->
@@ -192,7 +191,7 @@ $name = $user->name??'';
  <!--                       </a>-->
  <!--                   </li>-->
 
- <!--                   {{-- <!-- End of nav-item -->-->
+ <!--                   {{-- End of nav-item -->
  <!--         <li class="nav-item has-treeview">-->
  <!--           <a href="" class="nav-link ">-->
  <!--                   <i class="nav-icon fas fa-home"></i>-->
@@ -232,7 +231,7 @@ $name = $user->name??'';
  <!--                               </a>-->
  <!--                           </li>-->
  <!--                       </ul>-->
- <!--                   </li> <!-- End of nav-item -->-->
+ <!--                   </li> End of nav-item-->
 
  <!--                   <li class="nav-item">-->
  <!--                       <a href="" class="nav-link ">-->

@@ -12,6 +12,7 @@
     <!-- Css Styles -->
     <link rel="stylesheet" href="{{asset('assets/front/css/jquery-ui.min.css')}}" type="text/css">
    
+        <link rel="stylesheet" href="{{asset('assets/front/css/includes.css')}}">
         <link rel="stylesheet" href="{{asset('assets/front/css/booststrap_changed.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/front/css/font-awesome.min.css')}}">
     <link rel="icon" href="{{asset('assets/front/img/log1.png')}}">
@@ -22,7 +23,7 @@
     <!-- Offcanvas Menu Section Begin -->
     
     <div class="offcanvas-menu-overlay"></div>
-    <div class="canvas-open" style="left:30px;top:50px">
+    <div class="canvas-open" style="right:40px;top:30px;">
         <i class="icon_menu" style="font-size:50px"></i>
     </div>
     <div class="offcanvas-menu-wrapper">

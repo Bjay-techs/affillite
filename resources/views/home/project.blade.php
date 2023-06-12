@@ -130,7 +130,7 @@
            <!-- Breadcrumb Section Begin -->
     <div class="row">
         <div class="sections-navs col-sm-10">
-            <center><h1 style="color:black;">Project.</h1></center>
+            <h1 style="color:black; text-align: center;margin-top: 10px;">Project.</h1>
         </div></div>
 <!--<div class="container">-->
 <!--  <div class="row">-->
@@ -181,7 +181,7 @@
     <div class="container">
         <div class="about-page-text">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-flex align-items-center">
                     <div class="text-center">
                         <img src="{{asset('assets/front/img/projecs-as1.jpg')}}" alt="fail" style="border-radius: 10px; margin-bottom: 20px;">
                     </div>
@@ -189,25 +189,25 @@
                 <div class="col-lg-6">
                     <br><br>
                     <div class="ap-title">
-                         <p>
-        STAGE 1 – has two phases PRELAUNCH. The afonete Prelaunch process phase1 open website phase2
-        process starting 10 June 2023 and is running until 3rd of October 2023. During the pre-launch,
-        allow partners to contribute this project and will get the unique opportunity to build a global
-        business in a way that never been possible before anywhere! As a partner, you’ll be able to take
-        part in the company’s success in your hands and a greater part of all future so this partner has
-        a specific limited number worldwide mix 200,000 people only allowed to participate.
-      </p>
-                       <p>
-        STAGE 2 – afonete will LAUNCH, fomo(watch video, gameplay, complete tasks, click views, and online
-        gaming players), and open global partners. And afonete enters full operational mode. The revolutionary
-        recurring bonus systems are activated and all members can now invite friends from all over the world.
-      </p>
-       <p>
-        STAGE 3 – afonete will LAUNCH, Ebusiness activated Eshop, future market, distribution token, and investment option.
-      </p>
-      <p>
-        STAGE 4 – afonete will LAUNCH, crypto loan, activated transfer, exchange, and investment option.
-      </p>
+                        <p>
+                            <span class="stage"> STAGE 1 –</span> has two phases PRELAUNCH. The afonete Prelaunch process phase1 open website phase2
+                            process starting 10 June 2023 and is running until 3rd of October 2023. During the pre-launch,
+                            allow partners to contribute this project and will get the unique opportunity to build a global
+                            business in a way that never been possible before anywhere! As a partner, you’ll be able to take
+                            part in the company’s success in your hands and a greater part of all future so this partner has
+                            a specific limited number worldwide mix 200,000 people only allowed to participate.
+                        </p>
+                        <p>
+                            <span class="stage"> STAGE 2 –</span> afonete will LAUNCH, fomo(watch video, gameplay, complete tasks, click views, and online
+                            gaming players), and open global partners. And afonete enters full operational mode. The revolutionary
+                            recurring bonus systems are activated and all members can now invite friends from all over the world.
+                        </p>
+                        <p>
+                           <span class="stage"> STAGE 3 –</span> afonete will LAUNCH, Ebusiness activated Eshop, future market, distribution token, and investment option.
+                          </p>
+                          <p>
+                          <span class="stage"> STAGE 4 –</span> afonete will LAUNCH, crypto loan, activated transfer, exchange, and investment option.
+                          </p>
                     </div>
                 </div>
             </div>

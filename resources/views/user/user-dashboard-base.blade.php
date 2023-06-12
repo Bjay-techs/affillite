@@ -1,4 +1,3 @@
-
 <?php
 
 use Illuminate\Support\Facades\Auth;
@@ -43,10 +42,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </head>
 
 <body class="hold-transition sidebar-mini">
-    <div class="wrapper">
+    <div class="wrapper ">
         <!-- Navbar -->
 
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light top-side">
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -58,26 +57,51 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Right navbar links -->
          
                 <!-- Notifications Dropdown Menu -->
-                <li class="nav-item dropdown">
+               <!--  <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
                         <i class="far fa-bell"></i>
                         <span class="badge badge-warning navbar-badge">15</span>
-                
-                <li class="nav-item">
-
-                    <!--  <img src="{{asset('assets/a/img/johndoe.jpg')}}" class="img-circle elevation-2"
+                    </a>
+                </li> -->
+                        
+                <div class="account"> 
+                     <div class="user-panel d-flex justify-content-end" id="drop-btn">
+                        <div class="info">
+                            <a href="#" class="d-block">{{$name}}</a>
+                        </div>
+                        <div class="user-img">
+                            <img src="{{asset('assets/a/img/johndoe.jpg')}}" class="" alt="User Image">
+                        </div>
+                    </div>
+                    
+                    <div class=" drop-content">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="setting">
+                                <a href="" class="nav-link d-flex ">
+                                    <i class="nav-icon fas fa-cog align-self-center mx-2"></i>
+                                    <p>
+                                        Profile Settings
+                                        <!-- <span class="right badge badge-success">New</span> -->
+                                    </p>
+                                </a>
+                            </div> 
+                            <div class="logout d-flex justify-content-center border-top pt-1">
+                                <!--  <img src="{{asset('assets/a/img/johndoe.jpg')}}" class="img-circle elevation-2"
                                 alt="User Image"> -->
-                    <!-- <a  href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit()"> Logout</a> -->
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST"> @csrf
-                        <style>
-                        button #btt:hover {
-                            background: white;
-                            height: 0px;
-                            width: 0px;
-                        }
-                        </style>
-                        <button type='submit' style="background-color:white; border: none;" id="btt">Logout</button>
-                    </form>
+                                <!-- <a  href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit()"> Logout</a> -->
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST"> @csrf
+                                    <img src="https://cdn-icons-png.flaticon.com/128/4436/4436954.png" width="25px" height="25px"> 
+                                    <button type='submit'>Logout</button>
+                                </form>
+                            </div>
+                        </div>
+                        
+                       
+                    </div>
+                </div>
+                
+
+            </nav>
     </div>
 
     </li>
@@ -118,7 +142,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
  <!--               <ul class="nav nav-pills nav-sidebar flex-column nav-fixed" data-widget="treeview" role="menu"-->
  <!--                   data-accordion="false">-->
                     <!-- Add icons to the links using the .nav-icon class
- <!--              with font-awesome or any other icon font library -->-->
+              with font-awesome or any other icon font library-->
  <!--                   <li class="nav-item has-treeview ">-->
  <!--                       <a href="" class="nav-link active">-->
  <!--                           <i class="nav-icon fas fa-tachometer-alt"></i>-->
@@ -233,7 +257,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
  <!--                       </a>-->
  <!--                   </li>-->
 
- <!--                   {{-- <!-- End of nav-item -->-->
+ <!--                   {{-- End of nav-item-->
  <!--         <li class="nav-item has-treeview">-->
  <!--           <a href="" class="nav-link ">-->
  <!--                   <i class="nav-icon fas fa-home"></i>-->
@@ -273,7 +297,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
  <!--                               </a>-->
  <!--                           </li>-->
  <!--                       </ul>-->
- <!--                   </li> <!-- End of nav-item -->-->
+ <!--                   </li> End of nav-item-->
 
  <!--                   <li class="nav-item">-->
  <!--                       <a href="" class="nav-link ">-->
@@ -322,7 +346,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-info elevation-4">
+    <aside class="main-sidebar sidebar-dark-info elevation-4 left-side">
         <!-- Brand Logo -->
         <a href="index3.html" class="brand-link">
             <img src="{{asset('assets/a/img/log1.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
@@ -332,16 +356,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Sidebar -->
         <div class="sidebar">
-            <!-- Sidebar user panel (optional) -->
-            <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                <div class="image">
-                    <img src="{{asset('assets/a/img/johndoe.jpg')}}" class="img-circle elevation-2" alt="User Image">
-                </div>
-                <div class="info">
-                    <a href="#" class="d-block">{{$name}}</a>
-                </div>
-            </div>
-
             <!-- Sidebar Menu -->
             <nav class="mt-2">
                 <ul class="nav nav-pills nav-sidebar flex-column nav-fixed" data-widget="treeview" role="menu"
@@ -632,11 +646,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             </p>
                         </a>
                     </li>
-               <li> <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
-                <img src="https://cdn-icons-png.flaticon.com/128/4436/4436954.png" width="25px" height="25px">  
- Log out</a><form id="logout-form" action="{{ route('logout') }}" method="POST"> @csrf                
-                     </form>
-                    </li>
 
                 </ul>
             </nav><br><br>
@@ -671,7 +680,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- /.control-sidebar -->
 
 
+    <script type="text/javascript">
+        document.getElementById('drop-btn').addEventListener('click', function() {
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === 'block') {
+            dropdownContent.style.display = 'none';
+          } else {
+            dropdownContent.style.display = 'block';
+          }
+        });
 
+    </script>
 </body>
 
 </html>

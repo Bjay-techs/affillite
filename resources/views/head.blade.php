@@ -12,7 +12,8 @@
     <!-- Css Styles -->
     <link rel="stylesheet" href="{{asset('assets/front/css/jquery-ui.min.css')}}" type="text/css">
    
-        <link rel="stylesheet" href="{{asset('assets/front/css/booststrap_changed.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/front/css/homePage.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/front/css/booststrap_changed.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/front/css/font-awesome.min.css')}}">
     <link rel="icon" href="{{asset('assets/front/img/log1.png')}}">
 
@@ -23,7 +24,7 @@
     
     <div class="offcanvas-menu-overlay"></div>
     <div class="canvas-open" style="width:50px:height:50px;right:20px;top:30px">
-        <i class="icon_menu" style="font-size:50px"></i>
+        <i class="icon_menu" style="font-size:50px; color:white"></i>
     </div>
     <div class="offcanvas-menu-wrapper">
         <div class="canvas-close">
