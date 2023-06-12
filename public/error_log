@@ -1,0 +1,81 @@
+[05-Jun-2023 03:00:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.33. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/platform_check.php on line 24
+[05-Jun-2023 03:00:41 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.33. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/platform_check.php on line 24
+[05-Jun-2023 03:04:26 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.33. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/platform_check.php on line 24
+[05-Jun-2023 03:11:37 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.33. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/platform_check.php on line 24
+[05-Jun-2023 03:16:15 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.33. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/platform_check.php on line 24
+[05-Jun-2023 03:28:43 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[05-Jun-2023 04:11:48 UTC] PHP Warning:  include(/home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/ClassLoader.php on line 571
+[05-Jun-2023 04:11:48 UTC] PHP Warning:  include(): Failed opening '/home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/composer/ClassLoader.php on line 571
+[05-Jun-2023 04:11:48 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/v in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[05-Jun-2023 04:11:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Illuminate\Http\Middleware\HandleCors does not exist in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('Illuminate\\Http...')
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\Http...')
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Http...', Array, true)
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Http...', Array)
+#4 /home/muhahavr/test.muhahe.com/ in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[05-Jun-2023 04:12:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Illuminate\Http\Middleware\HandleCors does not exist in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('Illuminate\\Http...')
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\Http...')
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Http...', Array, true)
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Http...', Array)
+#4 /home/muhahavr/test.muhahe.com/ in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[05-Jun-2023 04:12:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Illuminate\Http\Middleware\HandleCors does not exist in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('Illuminate\\Http...')
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\Http...')
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Http...', Array, true)
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Http...', Array)
+#4 /home/muhahavr/test.muhahe.com/ in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[05-Jun-2023 04:33:17 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[05-Jun-2023 04:44:15 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[05-Jun-2023 04:45:27 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpExceptio in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[05-Jun-2023 06:04:32 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Illuminate\Http\Middleware\HandleCors does not exist in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('Illuminate\\Http...')
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\Http...')
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Http...', Array, true)
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Http...', Array)
+#4 /home/muhahavr/test.muhahe.com/ in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[05-Jun-2023 06:04:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Illuminate\Http\Middleware\HandleCors does not exist in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('Illuminate\\Http...')
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\Http...')
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Http...', Array, true)
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Http...', Array)
+#4 /home/muhahavr/test.muhahe.com/ in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[05-Jun-2023 08:35:25 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Illuminate\Http\Middleware\HandleCors does not exist in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('Illuminate\\Http...')
+#1 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\Http...')
+#2 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Http...', Array, true)
+#3 /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Http...', Array)
+#4 /home/muhahavr/test.muhahe.com/ in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[09-Jun-2023 18:52:11 UTC] PHP Fatal error:  Cannot use Illuminate\Routing\RouteServiceProvider as RouteServiceProvider because the name is already in use in /home/muhahavr/test.muhahe.com/affiliate.muhahe.com/app/Http/Controllers/Auth/EmailVerificationPromptController.php on line 11

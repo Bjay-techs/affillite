@@ -1,0 +1,7 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/muhahavr/test.muhahe.com/affiliate.muhahe.com"
+PassengerBaseURI "/affiliate.muhahe.com"
+PassengerNodejs "/home/muhahavr/nodevenv/test.muhahe.com/affiliate.muhahe.com/12/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
