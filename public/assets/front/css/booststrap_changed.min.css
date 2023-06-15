@@ -5583,17 +5583,17 @@ header{
 .top-nav .tn-left li {
 	list-style: none;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 16px;
 	color: white;
 	font-weight: bold;
 	font-weight: 500;
-	padding: 14px 0 12px;
-	margin-right: 64px;
+	/* padding: 14px 0 12px; */
+	margin-right: 40px;
 	position: relative;
 }
 .top-nav .tn-left li:after {
 	position: absolute;
-	right: -32px;
+	right: -22px;
 	top: 0;
 	width: 1px;
 	height: 100%;
@@ -5616,7 +5616,6 @@ header{
 .top-nav .tn-right .top-social {
 	display: inline-block;
 	margin-right: 35px;
-	padding: 13px 0;
 }
 .top-nav .tn-right .top-social a {
 	display: inline-block;

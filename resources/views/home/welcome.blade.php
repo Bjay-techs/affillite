@@ -135,9 +135,9 @@
                         </div>
                     </center> -->
                     
-                    <div class="benef-part flex align-items-center marg">
+                    <div class="benef-part d-flex align-items-center marg">
                         <div class="benef-img " >
-                            <img src="{{asset('assets/front/img/aff2-small.jpg')}}" alt="" style="">
+                            <!-- <img src="{{asset('assets/front/img/aff2-small.jpg')}}" alt="" style=""> -->
                         </div>
 
                         <div class="benef-list ">
@@ -198,7 +198,7 @@
                 </p>
                
             </div>
-            <div class="homeAbout flex ">
+            <div class="homeAbout d-flex ">
                 <div class="benef-list" id="">    <br><br><br><br>
                     <ul class="sections-tabs-navs two">
                         <li>
@@ -223,8 +223,8 @@
                     </ul>
                       
                 </div>
-               <div class="benef-img mt-0 bo" id="">
-                    <img src="{{asset('assets/front/img/dream.jpg')}}" alt="">
+               <div class="benef-img two mt-0 bo" id="">
+                    <!-- <img src="{{asset('assets/front/img/dream.jpg')}}" alt=""> -->
                </div> 
             </div>
         </div>
@@ -508,11 +508,10 @@
 <style>
     
   .well4 {
-  background-color: #333; /* Dark background color */
-  padding: 0px;
-  /*Add some padding for spacing */
-  width:100%;*/
-  
+    background-color: #333; 
+    padding: 0px;
+    width:85%;
+    margin: auto;
 }
 /*@media (min-width:876px){*/
 /*    #text{*/
@@ -540,7 +539,7 @@
 </style>
       <!--End features section -->
       <br><br><br>
-<div class="well4 marg ">
+<div class="well4">
   <div class="site-wrap">
     <div class="site-section section-counter"></div>
     <div class="site-section first-section">
