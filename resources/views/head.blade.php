@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{asset('assets/front/css/homePage.css')}}">
     <link rel="stylesheet" href="{{asset('assets/front/css/booststrap_changed.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/front/css/font-awesome.min.css')}}">
-    <link rel="icon" href="{{asset('assets/front/img/log1.png')}}">
+    <link rel="icon" href="{{asset('assets/front/img/small-logo.png')}}">
 
 </head>
 
@@ -113,13 +113,13 @@
                 </div>
             </div>
         </div>
-        <div class="menu-item">
+        <div class="menu-item ">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2">
-                        <div class="logo">
+                        <div class="head-logo">
                             <a href="/">
-                                <!-- <img src="{{asset('assets/front/img/log2.png')}}" alt=""> -->
+                                <img src="{{asset('assets/front/img/big-logo.png')}}" alt="">
                             </a>
                         </div>
                     </div>
