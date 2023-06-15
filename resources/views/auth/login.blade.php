@@ -7,8 +7,8 @@
         <x-input-error :messages="$errors->get('password')" class="mt-2 bg-danger " style="width:300px" />
         <x-input-error :messages="$errors->get('email')" class="mt-2 bg-danger" style="width:300px" />
 
-        <div class="container-login100">
-            <div class="wrap-login100 col-md-4" style="margin-top: -240px;">
+        <div class="container-login100 ">
+            <div class="wrap-login100 " style="margin-top: -240px;">
 
                 <form class=" validate-form" method="POST" action="{{ route('login') }}">
                     @csrf

@@ -5,7 +5,7 @@
     }
     </style>
     <div class="container-login100">
-        <div class="wrap-login100 col-md-4" style="margin-top: 5px;">
+        <div class="wrap-login100 col-md-12" style="margin-top: 5px;">
             <form class="login100-form validate-form" action="{{ route('register') }}" method="POST">@csrf <span
                     class="login100-form-title">Register Form </span><br>@foreach (['danger', 'warning', 'success',
                 'info'] as $msg) @if (Session::has('alert-'.$msg)) <div class="alert alert-{{$msg}}" role="alert"> {

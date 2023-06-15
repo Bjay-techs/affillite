@@ -105,6 +105,10 @@
 	.well{
 		margin-top: -50px;
 	}
+
+	.menu-item{
+		top: 50px;
+	}
 }
 
 .box{
@@ -127,4 +131,24 @@
 }
 .bord{
 	border: 2px solid  red;
+}
+
+/* logo && navbar*/
+.menu-item{
+	position: relative;
+}
+.head-logo{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translateY(-50%);
+	padding: 0;
+}
+.head-logo img{
+	width: 60px;
+	height: 60px;
+}
+
+.wrap-login100 {
+	/* height: 500px; */
 }

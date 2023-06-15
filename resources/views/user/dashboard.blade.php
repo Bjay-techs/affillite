@@ -17,13 +17,11 @@
      @include('user.user-dashboard-base')
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <div class="row mb-2">
-              <div style="padding: 0px;margin-top:-530px;height:100%;">
+              <div style="padding: 10px 0;margin-top:60px;height:100%;">
  <div>
    
          @if(session('message'))
          <p class="alert alert-success" style="margin-left: 600px;">
-
-
              {{ session('message') }}
          </p>
          @endif
@@ -67,7 +65,6 @@
          text-align: center;
          float: right;
          padding-top: 5px;
-
      }
 
 
@@ -79,7 +76,7 @@
              width: 100%;
              flex: 0 0 60%;
              border: 4px solid white;
-             height: 100px;
+              height: 100px; 
              text-align: center;
              left: 40px;
              padding-top: 30px;
@@ -96,13 +93,13 @@
          display: flex;
          width: 100%;
          height: 120px;
-
          justify-content: center;
      }
      </style>
      <!-- Content Wrapper. Contains page content -->
      
-     <div class="content-wrapper right-side border border-primary"> 
+     <div class="content-wrapper right-side"> 
+        
 
         <marquee behavior="" direction=""><i style="color: brown">Welcome Back To Millionaire Site,We're Here for
                  you,now
@@ -111,34 +108,29 @@
                  And don't Hesitate to Contact us</i> </marquee>
 
      <div class="container cc">
-         <div class="row row-cols">
-             <div class="col" style="background-color: white;" id="hide"></div>
-             <div class="col bg-info " id="not">
-                 <a class="nav-icon fas fa-window-restore" href="#"><br>Acount stutus<br /><b>Not active</b></a>
-                 </div>
-             <div class="col bg-success ">
-                 <a href="{{route('user.dashboard.activate')}}" class="nav-icon fas fa-window-restore" ><br>Activate package</a>
-                 </div>
-                  <div class="col bg-primary"><a class="nav-icon fas fa-wallet" href="#"><br>Cash&deposit <br>0:0</a> </div>
-             <div class="col bg-danger"><a class="nav-icon fas fa-bookmark" href="#"> <br>Cash out <br>0:0</a> </div>
-             <div class="col bg-warning"><a class="nav-icon fas fa-money" href="#"> <br>Total Direct <br />0</a></div>
-             <div class="col bg-info"><a class="nav-icon fas fa-gift" href='#'> <br>Total working team <br>0</a></div>
-             <div class="col bg-success"><a class="nav-icon fas fa-gift" href='#'> <br>Pending Derect <br>0</a></div><br>
+         <div class="ad-main-box">
+             <!-- <div class="" style="background-color: white;" id="hide"></div> -->
              
-            
+             <div class="ad-box bg-info " id="not"> <a class="nav-icon fas fa-window-restore" href="#"><br>Acount stutus<br /><b>Not active</b></a></div>
+             <div class="ad-box bg-success "> <a href="{{route('user.dashboard.activate')}}" class="nav-icon fas fa-window-restore" ><br>Activate package</a></div>
+             <div class="ad-box bg-primary"><a class="nav-icon fas fa-wallet" href="#"><br>Cash&deposit <br>0:0</a> </div>
+             <div class="ad-box bg-danger"><a class="nav-icon fas fa-bookmark" href="#"> <br>Cash out <br>0:0</a> </div>
+             <div class="ad-box bg-warning"><a class="nav-icon fas fa-money" href="#"> <br>Total Direct <br />0</a></div>
+             <div class="ad-box bg-info"><a class="nav-icon fas fa-gift" href='#'> <br>Total working team <br>0</a></div>
+             <div class="ad-box bg-success"><a class="nav-icon fas fa-gift" href='#'> <br>Pending Derect <br>0</a></div><br> 
          </div>
      </div>
 
      <div class="container cc">
-         <div class="row row-cols">
-             <div class="col " style="background-color: white;" id="hide"></div>
-             <div class="col bg-success"><a class="nav-icon fas fa-gear" href="#"><br>Update</a></div>
-             <div class="col bg-primary"><a class="nav-icon fas fa-user" href="#"><br>My invetees</a></div>
-             <div class="col bg-danger"><a class="nav-icon fas fa-users" href="#"><br>My Team</a></div>
-             <div class="col bg-warning"><a class="nav-icon fas fa-gift" href="#"><br>Mcoin <sub>coming some</sub></a></div>
-             <div class="col bg-info"><a class="nav-icon fas fa-gift" href="#"><br>Total Balance</a></div>
-             <div class="col bg-success"><a class="nav-icon fas fa-gift" href="#"><br>Income</a></div>
-             <div class="col bg-info"><a class="nav-icon fas fa-gift" href="#"><br>Wallet Balance <sub>coming some</sub></a></div>
+         <div class="ad-main-box">
+             <!-- <div class="col " style="background-color: white;" id="hide"></div> -->
+             <div class=" ad-box bg-success"><a class="nav-icon fas fa-gear" href="#"><br>Update</a></div>
+             <div class="ad-box bg-primary"><a class="nav-icon fas fa-user" href="#"><br>My invetees</a></div>
+             <div class="ad-box bg-danger"><a class="nav-icon fas fa-users" href="#"><br>My Team</a></div>
+             <div class="ad-box bg-warning"><a class="nav-icon fas fa-gift" href="#"><br>Mcoin <sub>coming some</sub></a></div>
+             <div class="ad-box bg-info"><a class="nav-icon fas fa-gift" href="#"><br>Total Balance</a></div>
+             <div class="ad-box bg-success"><a class="nav-icon fas fa-gift" href="#"><br>Income</a></div>
+             <div class="ad-box bg-info"><a class="nav-icon fas fa-gift" href="#"><br>Wallet Balance <sub>coming some</sub></a></div>
          </div>
      </div>
      
@@ -216,14 +208,10 @@
          <!-- /.row ENDING RIGHT HERE AND BE READY TO START -->
          <!-- Main content -->
          <div class="content">
-             <div class="container-fluid">
+             <div class="container-fluid ">
 
-                 <div class="row">
-                     <div class="col-md-8">
-
-                         <div></div>
-                         <div class="row">
-                             <div class="card card-primary card-outline col">
+                 <div class="row ">
+                             <div class="card card-primary card-outline col-lg-4">
 
                                  <h5 class="card-title">Refferral id</h5><br>
                                  <input type="text" id="link"
@@ -234,7 +222,7 @@
                                      <a href="#" id="btn">Copy Link</a></i><br>
 
                              </div>
-                             <div class="col">
+                             <div class="col-lg-5">
 
                                  <div class="col-sm-md-4">
                                      <!-- Map card -->
@@ -260,7 +248,27 @@
                                      </div>
                                  </div>
                              </div>
-                         </div>
+
+                              <div class="col-lg-3" style="margin-right:0px;">
+                                    <div class="">
+                                         <div class="info-box mb-3 w-100" style="background-color:lightgreen;width: 250px;height: 100px;">
+                                             <span class="info-box-icon  elevation-1"><i class="fas fa-users"></i></span>
+
+                                             <div class="info-box-content">
+                                                 <span class="info-box-text">Total Founders</span>
+                                                 <span class="info-box-number">512,444</span>
+                                             </div>
+
+                                         </div>
+                                         <div class=" info-box mb-4 w-100" style="background-color:lightgreen;width: 270px; height: 10px;">
+                                             <div class="row">
+                                                 <div class="col">Top users</div>
+                                                 <div class="col bg-dark" style="width:160px;height: 30px;">coming soon</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
                          <script type="text/javascript">
                          function copylink() {
                              var linkinput = document.getElementById('link');
@@ -271,12 +279,10 @@
                          var copybtn = document.getElementById('btn');
                          copybtn.addEventListener("click", copylink);
                          </script>
-                     </div>
-
                      <!-- /.col-md-6 -->
 
                      <!-- Map card -->
-                     <div class="col-12 col-sm-6 col-md-3 container float-right" style="margin-right:0px;">
+                    <!--  <div class="col-12 col-sm-6 col-md-3 container float-right" style="margin-right:0px;">
                          <div class="info-box mb-3" style="background-color:lightgreen;width: 250px;height: 100px;">
 
                              <span class="info-box-icon  elevation-1"><i class="fas fa-users"></i></span>
@@ -298,30 +304,40 @@
 
 
                          </div>
-                     </div>
+                     </div> -->
 
 
                      {{-- start OF LEADER --}}
-                 </div> <span style="color: blue;font-size: 20px;"><b>Upcoming Projects</b> </span>
-                 <div class="row coming">
+                 </div> 
+                 <span style="color: blue;font-size: 20px;"><b>Upcoming Projects</b> </span>
+                 
+                 <div class="row my-2">
 
                      <div class="col-12 col-sm-6 col-md-3">
-                         <div class="info-box">
-
-                             <div class="info-box-content">
-                                 <b>O-Bless</b><br>Empower global change
-                             </div>
+                         <div class="info-box main-upcoming">
+                            <div class="upcoming ">
+                                <div>
+                                    <img src="{{asset('assets/a/img/blessing.png')}}" alt="">
+                                </div>
+                                <div class="info-box-content text-center">
+                                    <b>O-Bless</b>Empower global change
+                                </div>
+                            </div>
 
                          </div>
                      </div>
                      <!-- /.col -->
                      <div class="col-12 col-sm-6 col-md-3">
 
-                         <div class="info-box mb-3">
-
-                             <div class="info-box-content">
-                                 <b> O-Booking</b><br>Your fovorite booking site
-                             </div>
+                         <div class="info-box mb-3  main-upcoming">
+                            <div class="upcoming">
+                                <div>
+                                    <img src="{{asset('assets/a/img/booking.png')}}" alt="">
+                                </div>
+                                <div class="info-box-content text-center">
+                                <b> O-Booking</b>Your fovorite booking site
+                                </div>
+                            </div>
 
                          </div>
 
@@ -332,27 +348,37 @@
                      <div class="clearfix hidden-md-up"></div>
 
                      <div class="col-12 col-sm-6 col-md-3">
-                         <div class="info-box mb-3">
 
-                             <div class="info-box-content">
-                                 <b>O-create</b> <br>Design websites with al insights
-                             </div>
-
-                         </div>
-
-                     </div>
-                     <!-- /.col -->
-                     <div class="col-12 col-sm-6 col-md-3">
-                         <div class="info-box mb-3">
-
-                             <div class="info-box-content">
-                                 <b>O-domain</b> <br> Give your website digital indentity
-                             </div>
+                         <div class="info-box mb-3  main-upcoming">
+                            <div class="upcoming">
+                                <div>
+                                    <img src="{{asset('assets/a/img/page.png')}}" alt="">
+                                </div>
+                                <div class="info-box-content text-center">
+                                 <b>O-create</b>Design websites with al insights
+                                </div>
+                            </div>
 
                          </div>
 
                      </div>
-                     <!-- /.col -->
+                         <!-- /.col -->
+                        <div class="col-12 col-sm-6 col-md-3">
+
+                         <div class="info-box mb-3  main-upcoming">
+                            <div class="upcoming">
+                                <div>
+                                    <img src="{{asset('assets/a/img/http.png')}}" alt="">
+                                </div>
+                                <div class="info-box-content text-center">
+                                <b>O-domain</b> Give your website digital indentity
+                                </div>
+                            </div>
+
+                         </div>
+
+                     </div>
+                     
                  </div>
                  <div class="row" style="margin-top:15px">
                      <div class="col-lg-6">
@@ -389,28 +415,28 @@
                                              <tr>
                                                  <td>1. John</td>
                                                  <td></td>
-                                                 <td>$5000</td>
+                                                 <td>$0</td>
                                              </tr>
                                              <tr>
                                                  <td>2. Mary</td>
                                                  <td></td>
-                                                 <td>$2000</td>
+                                                 <td>$0</td>
                                              </tr>
                                              <tr>
                                                  <td>3. July</td>
                                                  <td></td>
-                                                 <td>$1500</td>
+                                                 <td>$0</td>
                                              </tr>
                                              <tr>
                                                  <td>4. July</td>
                                                  <td></td>
-                                                 <td>$1000</td>
+                                                 <td>$0</td>
                                              </tr>
                                              <tr>
                                                  <td>5. JackMan
                                                  </td>
                                                  <td></td>
-                                                 <td>$500</td>
+                                                 <td>$0</td>
                                              </tr>
                                          </tbody>
                                      </table>
@@ -576,10 +602,10 @@
 
                                                  <div class="card-body"
                                                      style="background-color:white;color:black;height: 180px; width: 100%; ">
-                                                     <h5><b class="text-warning">Members:</b> 20</h5>
+                                                     <h5><b class="text-warning">Members:</b> 0</h5>
 
                                                      <p>
-                                                     <h4>1500 <small>Vp</small></h4>
+                                                     <h4>0 <small>Vp</small></h4>
                                                      </p>
 
 
@@ -602,10 +628,10 @@
 
                                                  <div class="card-body"
                                                      style="background-color:white;color:black;height: 180px; width: 100%; ">
-                                                     <h5><b class="text-warning">Members:</b> 44</h5>
+                                                     <h5><b class="text-warning">Members:</b> 0</h5>
 
                                                      <p>
-                                                     <h4>3000 <small>Vp</small></h4>
+                                                     <h4>0 <small>Vp</small></h4>
                                                      </p>
 
                                                      <h3 class="text-success">
@@ -661,7 +687,7 @@
                                                  <div class="col-sm-3 col-6">
                                                      <div class="description-block border-right">
                                                          <span class="description-text"><b>Left Team</b></span><br>
-                                                         <h5 class="description-header">100 Vp</h5>
+                                                         <h5 class="description-header">0 Vp</h5>
 
                                                      </div>
                                                      <!-- /.description-block -->
@@ -679,7 +705,7 @@
                                                  <div class="col-sm-3 col-6">
                                                      <div class="description-block">
                                                          <span class="description-text"><b>Right Team</b></span><br>
-                                                         <h5 class="description-header">150 Vp</h5>
+                                                         <h5 class="description-header">0 Vp</h5>
 
                                                      </div>
                                                      <!-- /.description-block -->
@@ -704,7 +730,6 @@
                  <!-- /.col-md-6 -->
              </div>
 
-         </div>
          
 
 
