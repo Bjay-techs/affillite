@@ -13,7 +13,10 @@
 ?>
 
 <div style="width:100%">
-@include('head')
+<div class="">
+
+    @include('head')
+</div>
     
     <!-- About Us Page Section End -->
     
@@ -23,12 +26,10 @@
         <div class="hero-slider owl-carousel ">
             <div class="hs-item set-bg" data-setbg="{{asset('assets/front/img/hero/big-banner2.jpg')}}">
                 <div class="col hero-text hello">
-                    <h2 style="font-size:75px">Join Afonete<br>  today</h2>
+                    <h2 style="">Join Afonete<br>  today</h2>
                     <p> All in one, innovator web3 and blockchain technology and
-                    </br> The platform for success-minded people<br><br>
-                        <a href="#" class=" primary-btn">I Want To Hire</a>
-                        <a href="#" class=" info-btn">I Want To Work</a></p>
-                   
+                    </br> The platform for success-minded people
+                    </p>
             </div></div>
             <div class="hs-item set-bg" data-setbg="{{asset('assets/front/img/hero/big-banner3.jpg')}}">
                 <div class="col hero-text">
@@ -45,12 +46,10 @@
             
         }
         
-        .hero-section{
-            
+        /* .hero-section{
             height:400px;
             width:100%;
-            
-        }
+        } */
         
          #afo{
             display:none;
@@ -83,7 +82,7 @@
     }
  
 </style>
-                    <p class="float-right" style="font-size:25px"  id="afo" >Afonete have created unique innovative <br>affiliate 
+                    <p class="float-right hero-text" style="font-size:25px" id="afo">Afonete have created unique innovative <br>affiliate 
                         platform solutions for global community of <br>people who
                         love  innovative technologies, web3,<br> blockchain
                         technologies  and opened access<br> for all people  to
@@ -106,28 +105,25 @@
 
     </section>
     <!-- Hero Section End -->
-<div class="responsive">
-
-
-
+<div>
         <!-- START OF VIDEO SLIDER -->
 
         <!-- row -->
-        <div class="slide-row">
+        <div class="slide-row ">
 
             <!-- section title -->
 
             <div class="container" style="width=100%">
                 <div class="sections-tittle">
-                    <div class="responsive rep">
-                        <h3 >LET'S PUT OUR FAITH  INTO <br>ACTION, TAKE RISKS AND <br>START SOMETHING!*</h3>
-                        <p>Many people lose more money for bundle/mbs internet with <br>out generate even
-                            $0.1 still We all  spend LOT of timeonline,?<br>  Change your mind this is your way You
-                            can earn money  $10<br> perday (dollar Bitcoin,  or usdt) by doing the things you
-                            love<br>online.Turn Your Time Into Money.<br>
+                    <div class="sect2-title head">
+                        <h3>LET'S PUT OUR FAITH  INTO ACTION, TAKE RISKS AND START SOMETHING</h3>
+                        <p class="par">Many people lose more money for bundle/mbs internet with out generate even
+                            $0.1 still We all  spend LOT of timeonline,?  Change your mind this is your way You
+                            can earn money  $10 perday (dollar Bitcoin,  or usdt) by doing the things you
+                            love online.Turn Your Time Into Money.
                         </p>
                     </div>
-                    <center>
+                    <!-- <center>
                         <div class="responsive rep1">
                             <h3>LET'S PUT OUR FAITH  INTO ACTION, TAKE RISKS AND START SOMETHING!*</h3>
                             <p>Many Peaple lose more money for bundle/mbs internet without generate even
@@ -137,76 +133,44 @@
                                 love online.Turn Your Time Into Money.<br>
                             </p>
                         </div>
-                    </center>
+                    </center> -->
+                    
+                    <div class="benef-part flex align-items-center marg">
+                        <div class="benef-img " >
+                            <img src="{{asset('assets/front/img/aff2-small.jpg')}}" alt="" style="">
+                        </div>
 
-                    <div class=" sections-navs col-10">
-
-                        <center>
-
-
-                            </ul>
-                    </div>
+                        <div class="benef-list ">
+                            <div id="">
+                                <ul class="sections-tabs-navs ">
+                                    <li>
+                                        <p class="par">Get rewards/money for watching videos, shopping online,
+                                            or signing up for exciting services</p>
+                                    </li>
+                                    <li>
+                                        <p class="par">Earn anywhere you are even your home get money</p>
+                                    </li>
+                                    <li>
+                                        <p class="par">Get money just for using social media!</p>
+                                    </li>
+                                    <li>
+                                        <p class="par">Earn money for simple just click viewing ads </p>
+                                    </li>
+                                    <li>
+                                        <p class="par">Earn crypto by playing fun games online.</p>
+                                    </li>
+                                    <li>
+                                        <p class="par">Get rewards for referral people</p>
+                                    </li>
+                                    <a href="{{route('register')}}" class="info-btn">Sign up & start earning</a>
+                                </ul>
+                            </div>
+        
+                        </div>
                 </div>
-                </center>
+                </div>
          
-
-                <div class="image img ">
-                    <img src="{{asset('assets/front/img/aff2-small.jpg')}}"   style=" height:330px;width:600px;border-radius:10px" alt="">
-                </div>
-                <div class="sections-navs">
-                    <div id="mission">
-                        <ul class="sections-tabs-navs col-md-12 tabs-navs">
-                            <li>
-                                <p>Get rewards/money for watching videos, shopping online,
-                                    or signing up for exciting services</p>
-                            </li>
-                            <li>
-                                <p>Earn anywhere you are even your home get money</p>
-                            </li>
-                            <li>
-                                <p>Get money just for using social media!</p>
-                            </li>
-                            <li>
-                                <p>Earn money for simple just click viewing ads </p>
-                            </li>
-                            <li>
-                                <p>Earn crypto by playing fun games online.</p>
-                            </li>
-                            <li>
-                                <p>Get rewards for referral people</p>
-                            </li>
-                            <a href="{{route('register')}}" class=" info-btn">Sign up & start earning</a>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-            <div class="sections-navs" style="margin-top:-10px">
-                <div class="missi" id="missi">
-                    <ul class=" sections-tabs-navs col-12 tabs-navs">
-                        <li>
-                            <p>Get rewards/money for watching videos, shopping<br> online,
-                                or signing up for exciting services</p>
-                        </li>
-                        <li>
-                            <p>Earn anywhere you are even your home get money</p>
-                        </li>
-                        <li>
-                            <p>Get money just for using social media!</p>
-                        </li>
-                        <li>
-                            <p>Earn money for simple just click viewing ads </p>
-                        </li>
-                        <li>
-                            <p>Earn crypto by playing fun games online.</p>
-                        </li>
-                        <li>
-                            <p>Get rewards for referral people</p>
-                        </li>
-                        <a href="" class=" info-btn">Sign up & start earning</a>
-                    </ul>
-                </div>
-
+                <!-- place benefit section -->
             </div>
         </div>
 
@@ -223,53 +187,47 @@
 <!-- Hero Section Begin -->
 
 <!-- About Us Page Section Begin -->
-<section class="aboutus-page-section spad">
-    <div class="container-fluid ">
-        <div class="about-page-text">
-            <center>
+<section class=" marg">
+    <div class="container">
+        <div class="about-page-text ">
+            <div class="head">
                 <h3>DO YOU WANT TO LIVE YOUR DREAMS?</h3>
-            </center>
-            <div class="sections-title row ">
-        <style>
-
-
-        </style>
-
-                <center>
-                    <p id="story" >Our story began with an inner desire to change the world while creating a
-                        fair opportunity for all individuals involved right now </p>
-               </center>
-              
-             
-                <div class=" sections-dream  row" id="do">    <br><br><br><br>
-                    <ul class="sections-tabs-navs col-12 tabs-navs">
+                <p class="par">
+                    Our story began with an inner desire to change the world while creating a
+                    fair opportunity for all individuals involved right now 
+                </p>
+               
+            </div>
+            <div class="homeAbout flex ">
+                <div class="benef-list" id="">    <br><br><br><br>
+                    <ul class="sections-tabs-navs two">
                         <li>
-                            <p>Earn from your mbs/internet used to $5 for every task you participate in.</p>
-                            <p>Get reward 100 000 projects/client uploaded </p>
+                            <p class="par">Earn from your mbs/internet used to $5 for every task you participate in.</p>
+                           
                         </li>
                         <li>
-                            <p>Get lifetime passive income </p>
+                            <p class="par">Get reward 100 000 projects/client uploaded </p>
                         </li>
                         <li>
-                            <p>Free space room shop </p>
+                            <p class="par">Get lifetime passive income </p>
                         </li>
                         <li>
-                            <p>Get 15% directs projects Uploaded</p>
+                            <p class="par">Free space room shop </p>
                         </li>
                         <li>
-                            <p>The buying and selling of products and services online.</p>
+                            <p class="par">Get 15% directs projects Uploaded</p>
+                        </li>
+                        <li>
+                            <p class="par">The buying and selling of products and services online.</p>
                         </li><br>
+                    </ul>
                       
                 </div>
-               <div class="image col hs-item set-bg" id="im2" data-setbg="{{asset('assets/front/img/dream.jpg')}}" style="border-radius: 20px; width: 400px; height: 300px; overflow: hidden;"></div> <ul>
-                        <!--<img src=" {{asset('assets/front/img/dream.jpg')}}"  style="width:300px;height:300px;  border-raduis:10px;" alt="">-->
-
-                    </ul>
-                
+               <div class="benef-img mt-0 bo" id="">
+                    <img src="{{asset('assets/front/img/dream.jpg')}}" alt="">
+               </div> 
             </div>
-
         </div>
-
     </div>
 </section>
 
@@ -278,40 +236,48 @@
 <!-- Video Section Begin -->
 
 <!-- sergr -->
-<div class="well" style="margin-top:-100px"> 
+<div class="well marg border " style=""> 
     <div class="site-wrap">
         <div class="site-section first-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="text-center">
-                            <span class="flaticon-money-bag-with-dollar-symbol display-4 d-block mb-3 text-primary"></span>
+                        <div class="text-center box">
+                            <span class="icon d-block">
+                                <img src="{{asset('assets/front/img/add-user.png')}}" alt="">
+                            </span>
                             <h3 class="text-uppercase h4">Sign Up</h3>
-                            <p>Feel free to join us, members from all countries are allowed. Registration is absolutely free.</p>
+                            <p  class="par">Feel free to join us, members from all countries are allowed. Registration is absolutely free.</p>
                         </div>
                     </div>
 
                     <div class="col-md-3">
-                        <div class="text-center">
-                            <span class="flaticon-money-bag-with-dollar-symbol display-4 d-block mb-3 text-primary"></span>
+                        <div class="text-center box">
+                        <span class="icon d-block">
+                                <img src="{{asset('assets/front/img/salary.png')}}" alt="">
+                            </span>
                             <h3 class="text-uppercase h4 mb-3">Earn</h3>
-                            <p>At afonete, it is a unique platform where you can earn by performing simple tasks like clicking views, watching videos, referring new members, and completing offers.</p>
+                            <p class="par">At afonete, it is a unique platform where you can earn by performing simple tasks like clicking views, watching videos, referring new members, and completing offers.</p>
                         </div>
                     </div>
 
                     <div class="col-md-3">
-                        <div class="text-center">
-                            <span class="flaticon-money-bag-with-dollar-symbol display-4 d-block mb-3 text-primary"></span>
+                        <div class="text-center box">
+                        <span class="icon d-block">
+                                <img src="{{asset('assets/front/img/money.png')}}" alt="">
+                            </span>
                             <h3 class="text-uppercase h4 mb-3">Cashout</h3>
-                            <p>Cash out your earnings via mobile money, Perfect Money, or Cash Cheque.</p>
+                            <p class="par">Cash out your earnings via mobile money, Perfect Money, or Cash Cheque.</p>
                         </div>
                     </div>
 
                     <div class="col-md-3">
-                        <div class="text-center">
-                            <span class="flaticon-money-bag-with-dollar-symbol display-4 d-block mb-3 text-primary"></span>
+                        <div class="text-center box">
+                        <span class="icon d-block">
+                                <img src="{{asset('assets/front/img/online-shop.png')}}" alt="">
+                            </span>
                             <h3 class="text-uppercase h4 mb-3">Online Shop</h3>
-                            <p>Explore our online shop with various services, including software, booking hotel/air tickets, and business services for users and social media companies.</p>
+                            <p class="par">Explore our online shop with various services, including software, booking hotel/air tickets, and business services for users and social media companies.</p>
                         </div>
                     </div>
                 </div>
@@ -382,19 +348,19 @@
      <!-- START OF COUNTER NUMBER -->
 
    
-<div class="well ">
+<div class="well marg">
     <div class="site-wrap">
         <div class="site-section section-counter"></div>
         <div class="site-section first-section">
             <div class="container">
-                <div class="row mb-2">
+                <div class="row">
                     <div class="col-md-12 text-center" data-aos="fade"> <br>
                         <h2 class="site-section-heading text-uppercase text-center font-secondary">Our
                             Satisified Customers</h2>
                     </div>
                 </div>
                 <div class="row border-responsive">
-                    <div class="col-md-2 col-lg-2 mb-4 mb-lg-0 " data-aos="fade-up" data-aos-delay=""></div>
+                    <div class="col-md-2 col-lg-2" data-aos="fade-up" data-aos-delay=""></div>
 
                     <div class="col-md-3 col-lg-3 mb-4 mb-lg-0 border-right" data-aos="fade-up" data-aos-delay="">
                         <div class="text-center">
@@ -441,7 +407,7 @@
     <!-- END OF COUNTER NUMBER -->
     <!-- start Our mission -->
    <!--<div class="well2" style="background: linear-gradient(135deg, #ff6a00, #ff004f); border-radius: 20px; overflow: hidden;">-->
-   <div class="bg-dark" style="background: linear-gradient(135deg, #000000, #1a1a1a); border-radius: 20px; padding: 20px;">
+   <div class="bg-dark mb-5 marg" style="background: linear-gradient(135deg, #000000, #1a1a1a); padding: 20px;">
         <div class="site-wrap">
             <div class="site-section section-counter"></div>
             <div class="site-section first-section">
@@ -455,26 +421,26 @@
                                 We are an innovative technology company building a massive infrastructure project
                                 that combines web3 development and blockchain technology. We believe that everybody
                                 deserves a fair chance for success and we aim to show people that there is more than
-                                one path to success in life. Join us and become successful.</h4>
+                                one path to success in life. Join us and become successful. Take a look
+                            for yourself,
+                            and find out which products best fit your personal goals and start growing
+                            your own business today!</h4>
                         </div>
                     </div>
                 </div>
             </div>
-        </div></div>
+        </div>
+    </div>
     <!--</div>-->
 
-
+<div class="container ">
      <div class="site-wrap">
 
         <div class="site-section first-section">
             <div class="container">
                 <div class="row mb-2">
-                    <div class="col-md-12 text-center" data-aos="fade"> <br>
-                        <h4> Take a look
-                            for yourself,
-                            and find out which products best fit your personal goals and start growing
-                            your own business today!</h4>
-                        <h2 class="text-center">Mainly feature </h2>
+                    <div class="col-md-12 text-center head" data-aos="fade"> <br>
+                        <h3 class="text-center "> MAINLY FEATURE</h3>
                     </div>
 
                 </div>
@@ -490,8 +456,8 @@
     <!-- start features section -->
  
     <!-- Hero Section End -->
-<div class="container">
-  <div class="row">
+
+  <div class="row feat  ">
     <div class="col-md-4">
       <div class="text-center">
         <ul class="list-unstyled">
@@ -543,7 +509,6 @@
     
   .well4 {
   background-color: #333; /* Dark background color */
-  border-radius: 20px; /* Small border radius */
   padding: 0px;
   /*Add some padding for spacing */
   width:100%;*/
@@ -574,16 +539,16 @@
 
 </style>
       <!--End features section -->
-      <center>
-<div class="well4">
+      <br><br><br>
+<div class="well4 marg ">
   <div class="site-wrap">
     <div class="site-section section-counter"></div>
     <div class="site-section first-section">
       <div class="container">
-        <div class="barner7 row mb-2">
-          <div class="col-md-12 text-center" data-aos="fade" style="90%">
+        <div class="barner7 row ">
+          <div class="text-center py-4 club" data-aos="fade" style="90%">
               
-            <h2 class=" text-center font-secondary" id="text1">You want to become a founder club</h2><br>
+            <h2 class=" text-center font-secondary text-white" id="text1">You want to become a founder club</h2><br>
             <h2 class=" text-uppercase text-center font-secondary">
               <a href="{{route('register')}}" class="primary-btn1" id="text">Yes, I'd like to sign up</a>
             </h2>
@@ -592,7 +557,7 @@
       </div>
     </div>
   </div>
-</div></center>
+</div><br>
 
     <!-- Hero Section End -->
     </div>

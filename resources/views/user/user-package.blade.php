@@ -68,19 +68,19 @@
 <!--                        </div>-->
 
 
-<!--                    </div><!-- /.col -->-->
+<!--                    </div>/.col-->
 <!--                    <div class="col-sm-6">-->
 <!--                        <ol class="breadcrumb float-sm-right">-->
 <!--                            <li class="breadcrumb-item"><a href="#">Home</a></li>-->
 <!--                            <li class="breadcrumb-item active">Dashboard</li>-->
 <!--                        </ol>-->
-<!--                    </div><!-- /.col -->-->
+<!--                    </div>/.col-->
 <!--                    <marquee behavior="" direction=""><i style="color: brown">Welcome Back To Millionaire Site,We're-->
 <!--                            Here for you,now you can make money online without Imvestments,work hard and get yourself-->
 <!--                            imverstements to buy new package. And don't Hesitate to Contact us</i> </marquee>-->
 
-<!--                </div><!-- /.row -->-->
-<!--            </div><!-- /.container-fluid -->-->
+<!--                </div>/.row-->
+<!--            </div>/.container-fluid-->
 <!--        </div>-->
         <!-- /.content-header -->
 <!--        <div class="row">-->
@@ -169,7 +169,7 @@
 <!--                                </p>-->
 <!--                                <a href="#" class="btn btn-primary">Copy Link</a>-->
 <!--                            </div>-->
-<!--                        </div><!-- /.card -->-->
+<!--                        </div>/.card-->
 
 
 <!--                    </div>-->
@@ -685,7 +685,7 @@
                 <!-- /.row -->
 
                 <!-- Main row -->
-<!--            </div><!-- /.container-fluid -->-->
+<!--            </div>/.container-fluid-->
 <!--        </div>-->
         <!-- /.content -->
         <!-- /.row -->

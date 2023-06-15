@@ -27,11 +27,7 @@
              {{ session('message') }}
          </p>
          @endif
-         <marquee behavior="" direction=""><i style="color: brown">Welcome Back To Millionaire Site,We're Here for
-                 you,now
-                 you can make money online without Imvestments,work hard and get yourself imverstements to buy new
-                 package.
-                 And don't Hesitate to Contact us</i> </marquee>
+         
 
      </div>
      <style>
@@ -106,6 +102,14 @@
      </style>
      <!-- Content Wrapper. Contains page content -->
      
+     <div class="content-wrapper right-side border border-primary"> 
+
+        <marquee behavior="" direction=""><i style="color: brown">Welcome Back To Millionaire Site,We're Here for
+                 you,now
+                 you can make money online without Imvestments,work hard and get yourself imverstements to buy new
+                 package.
+                 And don't Hesitate to Contact us</i> </marquee>
+
      <div class="container cc">
          <div class="row row-cols">
              <div class="col" style="background-color: white;" id="hide"></div>
@@ -137,7 +141,7 @@
              <div class="col bg-info"><a class="nav-icon fas fa-gift" href="#"><br>Wallet Balance <sub>coming some</sub></a></div>
          </div>
      </div>
-     <div class="content-wrapper">
+     
          <!-- Content Header (Page header) -->
          <div class="content-header">
              <div class="container-fluid">
