@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{asset('assets/front/css/jquery-ui.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('assets/front/css/booststrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/front/css/font-awesome.min.css')}}">
-    <!-- <link rel="icon" href="{{asset('assets/front/img/log1.png')}}"> -->
+    <link rel="icon" href="{{asset('assets/front/img/small-logo.png')}}">
 
 </head>
 

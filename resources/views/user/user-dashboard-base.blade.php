@@ -23,7 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="icon" href="{{asset('assets/a/img/log1.png')}}">
+    <link rel="icon" href="{{asset('assets/a/img/small-logo.png')}}">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{asset('assets/a/plugins/fontawesome-free/css/all.min.css')}}">
     <!-- Theme style -->
@@ -42,16 +42,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </head>
 
 <body class="hold-transition sidebar-mini">
-    <div class="wrapper ">
+    <div class="">
         <!-- Navbar -->
 
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light top-side">
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light top-side" id="topnav">
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button" id="menu"><i class="fas fa-bars"></i></a>
                 </li>
-
             </ul>
 
             <!-- Right navbar links -->
@@ -349,7 +348,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <aside class="main-sidebar sidebar-dark-info elevation-4 left-side">
         <!-- Brand Logo -->
         <a href="index3.html" class="brand-link">
-            <img src="{{asset('assets/a/img/log1.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+            <img src="{{asset('assets/a/img/big-logo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
                 style="opacity: .8">
             <span class="brand-text font-weight-light">Afonete</span>
         </a>
@@ -681,6 +680,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
     <script type="text/javascript">
+
+        // hide and show setting box
         document.getElementById('drop-btn').addEventListener('click', function() {
           var dropdownContent = this.nextElementSibling;
           if (dropdownContent.style.display === 'block') {
@@ -688,6 +689,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
           } else {
             dropdownContent.style.display = 'block';
           }
+        });
+        //dashboard menu
+        document.getElementById('menu').addEventListener('click', function() {
+            let navbar = document.getElementById('topnav');
+            navbar.classList.toggle("topnav")
         });
 
     </script>

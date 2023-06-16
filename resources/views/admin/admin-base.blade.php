@@ -20,7 +20,7 @@ $name = $user->name??'';
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="icon" href="{{asset('assets/a/img/log1.png')}}">
+    <link rel="icon" href="{{asset('assets/a/img/small-logo.png')}}">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{asset('assets/a/plugins/fontawesome-free/css/all.min.css')}}">
     <!-- Theme style -->
