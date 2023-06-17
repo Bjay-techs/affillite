@@ -2024,7 +2024,7 @@ header{
 		visibility: visible;
 	}
 	.canvas-open {
-		position: absolute;
+		/* position: absolute; */
 		right: 40px;
 		top: 25px;
 		font-size: 22px;

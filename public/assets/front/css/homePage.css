@@ -36,7 +36,7 @@
 		width:100%;
 	} 
 	.hello{
-		color: red;;
+		color: red;
 		font-size: 10px;
 	}
 	.hello h2{
@@ -70,15 +70,6 @@
 	background-repeat: no-repeat;
 	border-radius: 20px;
 }
-.benef-img.two{
-	width: 50%;
-	height: 350px;
-	margin: 10px 20;
-	background: url("../../front/img/dream.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	border-radius: 20px;
-}
 .benef-img img{
 	width: 100%;
 	height: 100%;
@@ -95,7 +86,11 @@
 .about-page-text .head{
 	text-align: center;
 }
-
+@media screen and (max-width: 991px){
+	.head-logo{
+		display: none;
+	}
+}
 @media screen and (max-width: 768px){
 	/* responsive in home about section */
 	
@@ -158,16 +153,26 @@
 	padding: 0;
 }
 .head-logo img{
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 }
-
-.wrap-login100 {
-	/* height: 500px; */
+.head-logo a{
+	font-size: 20px;
+	font-family: monospace;
 }
 
 
 /* head navigation */
 .top-nav .tn-left a {
 	font-size: 16px;
+}
+
+.side-logo img{
+	width: 50px;
+	height: 50px;
+}
+.side-logo a{
+	color: #000050;
+	font-size: 14px;
+	font-family: monospace;
 }

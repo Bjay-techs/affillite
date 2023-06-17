@@ -223,8 +223,8 @@
                     </ul>
                       
                 </div>
-               <div class="benef-img two mt-0 bo" id="">
-                    <!-- <img src="{{asset('assets/front/img/dream.jpg')}}" alt=""> -->
+               <div class="benef-img mt-0 bo" id="">
+                    <img src="{{asset('assets/front/img/dream.jpg')}}" alt="">
                </div> 
             </div>
         </div>
